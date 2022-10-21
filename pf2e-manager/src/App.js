@@ -1,18 +1,19 @@
 
-import './App.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Login from './components/Login';
 import Welcome from './components/Welcome';
+import './App.css';
 
 function App() {
-  const splash = require('./splash.png')
+  
 
-  return (
-    <div className="App">
-    <Header />
-    <img src={splash} alt="Splash" />
-    <Welcome />
-    <Login />
+  return (      
+    <div className="App">    
+    <Header />    
+    <Welcome />   
+    <Login  />
     </div>
   );
 }
