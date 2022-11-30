@@ -35,12 +35,22 @@ img {
   height: auto;
 }
 /* my code */
+/* GLOBAL CSS */
+.container {
+  display: flex;
+  flex-direction: column;
+}
 
 body {
   background-color: #4e0e0f;
   width: 100%;
+  font-family: ff-good-web-pro;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
 }
 
+/* LOGIN PAGE  */
 .main-wrapper {
   display: flex;
   width: 100%;
@@ -64,11 +74,7 @@ body {
 .intro,
 .login {
   width: 100%;
-  color: white;
   line-height: 1.5em;
-  font-family: ff-good-web-pro;
-  font-style: normal;
-  font-weight: 400;
   text-align: center;
   --minFontSize: 12px;
   --maxFontSize: 20px;
@@ -85,6 +91,28 @@ body {
 .bg-image img {
   width: 100%;
   border: solid 3px #002664;
+}
+
+/* SELECT CHARACTER */
+
+.select-char-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin-inline: auto;
+  row-gap: 2em;
+  line-height: 2em;
+}
+
+.character-list {
+  display: flex;
+  /* align-self: center; */
+}
+
+.character-list ul {
+  border: solid 2px #002664;
+  width: 100%;
 }
 
 /* Media Q's */
