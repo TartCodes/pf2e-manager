@@ -42,7 +42,11 @@ img {
 }
 
 body {
-  background-color: #4e0e0f;
+  background-image: linear-gradient(
+    to right,
+    rgb(105, 10, 10),
+    rgb(155, 35, 35)
+  );
   width: 100%;
   font-family: ff-good-web-pro;
   font-style: normal;
